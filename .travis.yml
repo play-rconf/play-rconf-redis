@@ -1,0 +1,17 @@
+language: java
+
+jdk:
+    - oraclejdk8
+
+services:
+    - redis-server
+
+script:
+    - mvn compile
+    - redis-cli set "test/db.default.driver" "org.postgresql.Driver"
+    - redis-cli set "test/db.default.timeout" "5000"
+    - redis-cli set "test.db.default.excludedIds" "[1,2,3,4,5]"
+    - redis-cli set "test.db.default.disabled" "false"
+    - redis-cli set "my.key" "Hello World"
+    - redis-cli set "file.test" "<FILE>./test;SGVsbG8gV29ybGQh"
+    - mvn test
