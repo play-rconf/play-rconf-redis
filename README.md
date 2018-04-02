@@ -43,6 +43,7 @@ remote-configuration {
     # Check your Redis configuration to know the hightest
     # value you are able to use
     db = 0
+    db = ${?REMOTECONF_REDIS_DB}
 
     # If password authentication is anabled on
     # your Redis server, this variable allow you
