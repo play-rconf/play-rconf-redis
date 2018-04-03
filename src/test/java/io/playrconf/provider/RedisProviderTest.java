@@ -56,7 +56,7 @@ public class RedisProviderTest {
      */
     private Config getInitialConfiguration(final String prefix) {
         return ConfigFactory.parseString(
-            "redis.host = \"terra.zero-x-baadf00d.com\"\n"
+            "redis.host = \"127.0.0.1\"\n"
                 + "redis.port = 6379\n"
                 + "redis.db = 0\n"
                 + "redis.prefix = \"" + prefix + "\"\n"
