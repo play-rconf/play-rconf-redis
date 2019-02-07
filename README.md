@@ -3,7 +3,7 @@
 
 [![Latest release](https://img.shields.io/badge/latest_release-18.04-orange.svg)](https://github.com/play-rconf/play-rconf-redis/releases)
 [![JitPack](https://img.shields.io/badge/JitPack-release~18.04-brightgreen.svg)](https://jitpack.io/#play-rconf/play-rconf-redis)
-[![Build](https://img.shields.io/travis-ci/play-rconf/play-rconf-redis.svg?branch=master&style=flat)](https://travis-ci.org/play-rconf/play-rconf-redis)
+[![Build](https://api.travis-ci.org/play-rconf/play-rconf-redis.svg?branch=master)](https://travis-ci.org/play-rconf/play-rconf-redis)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/play-rconf/play-rconf-redis/master/LICENSE)
 
 Retrieves configuration from Redis
